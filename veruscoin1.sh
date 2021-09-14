@@ -57,4 +57,25 @@ git clone https://github.com/xmrig/xmrig.git
  Mulai mining dilinux ubuntu  mengunakan xmrig perintah di bawah ini disini saya mining loki coin di herominer.com
 
  xmrig/build/./xmrig -a cryptonight -o stratum+tcp://pool.supportxmr.com:3333 -u 4BrL51JCc9NGQ71kWhnYoDRffsDZy7m1HUU7MRU4nUMXAHNFBEJhkTZV9HdaL4gfuNBxLPc3BeMkLGaPbF5vWtANQmAUSpuCim66b3iXaN  -p x -t 2
+=====================================================================================
+1 cara instalasi ccminer di termux
 
+ apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential 
+
+apt-get install git
+
+git clone --single-branch -b ARM https://github.com/monkins1010/ccmine... 
+
+ cd ccminer 
+
+ chmod +x build.sh
+
+ chmod +x configure.sh 
+
+ chmod +x autogen.sh 
+
+./build.sh
+
+ Then To Run the miner do the following branch Program Algo Pool User Password threads devices ARM
+
+./ccminer  -a verus  -o stratum+tcp://eu.luckpool.net:3956  -u  RSXFkbsHyxUqEDCW4pzkjCndvesK7qEXng.bepe  -p x  -t 2
